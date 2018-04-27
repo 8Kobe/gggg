@@ -1,0 +1,107 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": 4,
+      "width": 1552,
+      "height": 800,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 340.7875061035156,
+                "type": "panel",
+                "width": 248.0625
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 330.4125061035156,
+                "type": "panel",
+                "width": 248.0625
+              }
+            ],
+            "height": 674.2000122070312,
+            "type": "dock-v",
+            "width": 248.0625
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 329.95001220703125,
+                "type": "panel",
+                "width": 908.2250366210938
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 341.25,
+                "type": "panel",
+                "width": 908.2250366210938
+              }
+            ],
+            "height": 674.2000122070312,
+            "type": "dock-v",
+            "width": 908.2250366210938
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 674.2000122070312,
+            "type": "panel",
+            "width": 370.1000061035156
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "console",
+        "inspector",
+        "hierarchy",
+        "assets",
+        "scene",
+        "timeline"
+      ]
+    }
+  },
+  "panels": {
+    "preferences": {
+      "x": 821,
+      "y": 102,
+      "width": 583,
+      "height": 568
+    },
+    "project-settings": {
+      "x": 468,
+      "y": 128,
+      "width": 596,
+      "height": 559
+    },
+    "package-asset.export": {
+      "x": 560,
+      "y": 140,
+      "width": 415,
+      "height": 538
+    }
+  }
+}
